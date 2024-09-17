@@ -1,0 +1,25 @@
+.register {
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(to right, #7F7FD5, #91EAE4);
+    box-shadow: 0 0 10px rgba(33, 3, 3, 0.1);
+    border-radius: 15px;
+  }
+  
+  h2 {
+    font-weight: 700;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  .btn-success {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+  }
+  
+  .small.text-danger {
+    margin-top: 5px;
+  }

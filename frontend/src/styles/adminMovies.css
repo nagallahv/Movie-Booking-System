@@ -1,0 +1,73 @@
+/* Container for the manage movies page */
+.manage-movies-container {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section for adding new movies */
+.add-movie-section {
+  background-color: #e09d9d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Movie list styling */
+.movie-list-section {
+  background-color: #8c96cb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.movie-list-group-item {
+  background-color: #476c06;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Actions for each movie (buttons) */
+.movie-actions .btn {
+  margin-right: 10px;
+}
+
+.movie-actions .btn-dark {
+  background-color: #34495e;
+  border-color: #34495e;
+}
+
+.movie-actions .btn-info {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.movie-actions .btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+/* Button hover effects */
+.movie-actions .btn:hover {
+  opacity: 0.9;
+}
+
+/* Form input fields styling */
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}

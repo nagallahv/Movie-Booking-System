@@ -1,0 +1,62 @@
+.homepage {
+    background: linear-gradient(to right, #12C2E9, #F64F59);
+}
+
+.login-card {
+  background: linear-gradient(to right, #30e8bf, #ff8235);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.register-card {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.register-card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+.header {
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  color: #f8f9fa;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+}
+.home {
+  font-size: 15px;
+  cursor: pointer;
+}
+ul{
+  list-style-type: none;
+}

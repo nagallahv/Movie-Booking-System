@@ -1,0 +1,57 @@
+/* Container background and padding */
+.booking-container {
+    background-color: #2c3e50;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Booking card styling */
+  .booking-card {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .booking-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Form label and input */
+  .form-group label {
+    font-size: 1.2rem;
+  }
+  
+  .form-control {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Button */
+  .btn-block {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-success {
+    background-color: #27ae60;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218c54;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .booking-container {
+      padding: 20px;
+    }
+  }

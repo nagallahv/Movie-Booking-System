@@ -1,0 +1,59 @@
+.showtime-container {
+    background-color: #293745;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  /* Showtime card styling */
+  .showtime-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    background-color: #4e45ae;
+  }
+  
+  .showtime-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Card title and content */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #12bb3c;
+  }
+  
+  /* p {
+    color: #ecf0f1;
+  } */
+  
+  /* Button */
+  .btn-block {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-info {
+    background-color: #2980b9;
+    border: none;
+  }
+  
+  .btn-info:hover {
+    background-color: #1f618d;
+  }
+  
+  /* Responsive padding for mobile */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  }

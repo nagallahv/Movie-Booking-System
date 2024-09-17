@@ -1,0 +1,54 @@
+/* Container background and padding */
+.admin-dashboard-container {
+    background-color: #4bd009;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button styling for admin actions */
+  .admin-button {
+    background-color: #3498db;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Logout button */
+  .logout-button {
+    background-color: #e74c3c;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .admin-dashboard-container {
+      padding: 30px;
+    }
+  
+    .admin-button, .logout-button {
+      font-size: 1rem;
+      padding: 12px 15px;
+    }
+  
+    .row {
+      margin-top: 10px;
+    }
+  }

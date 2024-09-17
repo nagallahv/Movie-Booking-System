@@ -1,0 +1,59 @@
+/* Container styling for the manage theaters page */
+.manage-theaters-container {
+    background-color: #aceb2f;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section for adding new theaters */
+  .add-theater-section {
+    background-color: #b9dde3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Theater list styling */
+  .theater-list-section {
+    background-color: #de87c1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .theater-list-group-item {
+    background-color: #76776e;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Button styling for delete action */
+  .theater-actions .btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+  }
+  
+  /* Button hover effect */
+  .theater-actions .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Form input field styling */
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }

@@ -1,0 +1,70 @@
+/* Container styling for the Manage Showtimes page */
+.manage-showtimes-container {
+    background-color: #a1dbbd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section for adding a new showtime */
+  .add-showtime-section {
+    background-color: #de83cb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Form input styling */
+  .form-control {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  /* Button styles */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Showtime list section styling */
+  .showtime-list-section {
+    background-color: #acbd3f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .showtime-list-group-item {
+    margin-bottom: 10px;
+    background-color: #b0b1b4;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+  }
+  
+  .list-group-item div {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .list-group-item button {
+    float: right;
+  }

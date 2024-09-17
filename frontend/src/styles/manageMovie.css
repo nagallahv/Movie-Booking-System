@@ -1,0 +1,53 @@
+/* Container styling for the manage movies page */
+.manage-movies-container {
+    background-color: #cbdaf9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section for adding new movies */
+  .add-movie-section {
+    background-color: #f49090;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Form input field styling */
+  .form-control {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  /* Button styling */
+  .btn-block {
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Heading and text alignment */
+  h2, h3 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }

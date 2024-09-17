@@ -1,0 +1,29 @@
+.admin-register {
+  width: 100%;
+  max-width: 500px;
+  background: linear-gradient(
+    132deg,
+    rgb(249, 206, 183) 0%,
+    rgb(173, 209, 242) 100%
+  );
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+label {
+  font-weight: 600;
+}
+
+.btn-success {
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.small.text-danger {
+  margin-top: 5px;
+}
